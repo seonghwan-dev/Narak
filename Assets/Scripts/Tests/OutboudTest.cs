@@ -8,9 +8,11 @@ public class OutboudTest : MonoBehaviour
     // Start is called before the first frame update
     IEnumerator Start()
     {
+        var input = FindObjectOfType<TMP_InputField>();
         GetComponent<TextMeshProUGUI>().text = "Start WWW!";
         
-        UnityWebRequest request = UnityWebRequest.Get("https://seonghwan-dev.github.io/api/autochessframework/registry.json");
+        // UnityWebRequest request = UnityWebRequest.Get("https://seonghwan-dev.github.io/api/autochessframework/registry.json");
+        UnityWebRequest request = UnityWebRequest.Get(input.text);
         yield return request.SendWebRequest();
         
         if (request.result == UnityWebRequest.Result.ConnectionError || request.result == UnityWebRequest.Result.ProtocolError )
