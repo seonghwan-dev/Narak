@@ -1,12 +1,19 @@
+using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Networking;
+using UnityEngine.UI;
 
 public class OutboudTest : MonoBehaviour
 {
+    private void Awake()
+    {
+        FindObjectOfType<Button>().onClick.AddListener(OnClick);
+    }
+
     // Start is called before the first frame update
-    IEnumerator Start()
+    IEnumerator Run()
     {
         var input = FindObjectOfType<TMP_InputField>();
         GetComponent<TextMeshProUGUI>().text = "Start WWW!";
@@ -26,5 +33,10 @@ public class OutboudTest : MonoBehaviour
             string json = request.downloadHandler.text;
             GetComponent<TextMeshProUGUI>().text = json;
         }
+    }
+    
+    public void OnClick()
+    {
+        StartCoroutine(Run());
     }
 }
