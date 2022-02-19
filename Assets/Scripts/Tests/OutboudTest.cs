@@ -35,6 +35,10 @@ public class OutboudTest : MonoBehaviour
         }
     }
     
+    private void FixedUpdate()
+    {
+    }
+
     public void OnClick()
     {
         StartCoroutine(Run());
