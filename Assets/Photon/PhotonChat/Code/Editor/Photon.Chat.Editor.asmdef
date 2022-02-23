@@ -1,0 +1,16 @@
+{
+    "name": "Photon.Chat.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:844a12c034bc4a24ebf78c55c70a202a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -3,6 +3,11 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="$PROJECT_DIR$/Assets/Scripts/Game/KinematicObject.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/Assets/Scripts/Platformer/Core/Fuzzy.cs">
           <value>
             <set />
@@ -19,6 +24,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/Assets/Scripts/View/AnimatedTile.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Package Development/HLOD-System/Packages/com.unity.hlod/Editor/HLODDataImporter.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Package Development/HLOD-System/Packages/com.unity.hlod/Editor/HLODDataImporterEditor.cs">
           <value>
             <set />
           </value>
