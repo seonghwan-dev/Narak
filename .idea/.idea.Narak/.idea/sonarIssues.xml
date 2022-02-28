@@ -3,6 +3,11 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="$PROJECT_DIR$/Assets/Editor/NameAttributeDrawer.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/Assets/Scripts/Game/KinematicObject.cs">
           <value>
             <set />
@@ -14,6 +19,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/Assets/Scripts/Platformer/Core/HeapQueue.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Assets/Scripts/Platformer/Mechanics/GameController.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Assets/Scripts/Platformer/Model/PlatformerModel.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Assets/Scripts/Platformer/NameAttribute.cs">
           <value>
             <set />
           </value>

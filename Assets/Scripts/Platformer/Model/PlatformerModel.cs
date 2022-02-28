@@ -25,6 +25,7 @@ namespace Platformer.Model
         /// <summary>
         /// The spawn point in the scene.
         /// </summary>
+        [Name("스폰포인트")]
         public Transform spawnPoint;
 
         /// <summary>
@@ -38,5 +39,31 @@ namespace Platformer.Model
         /// </summary>
         public float jumpDeceleration = 0.5f;
 
+    }
+
+    struct A
+    {
+        public int a;
+        public int b;
+
+        public A(int a, int b)
+        {
+            this.a = a;
+            this.b = b;
+        }
+    }
+
+    class B
+    {
+        void Foo()
+        {
+            var arr = new A[]
+            {
+                new A(1,2),
+                new A(3,4),
+                new A(5,6),
+                new A(7,8),
+            };
+        }
     }
 }
